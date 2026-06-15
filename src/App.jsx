@@ -164,85 +164,95 @@ function App() {
 </div>
       </motion.section>
 
-      {/* PROJECTS */}
+    {/* PROJECTS */}
 <section id="projects" className="px-8 md:px-20 py-20">
-  <h2 className="text-4xl font-bold mb-10">Projects</h2>
 
-  <div className="grid md:grid-cols-3 gap-6">
+  <h2 className="text-4xl font-bold mb-12">Projects</h2>
+
+  <div className="grid md:grid-cols-3 gap-8">
 
     {/* Project 1 */}
-    <div className="bg-[#0A5C55]/80 backdrop-blur-md p-6 rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-[#F0EDE5] hover:shadow-[0_0_30px_rgba(240,237,229,0.25)]">
-      <h3 className="text-2xl font-semibold mb-3">
+    <div className="bg-[#0A5C55]/70 backdrop-blur-md p-6 rounded-2xl border border-white/10 hover:scale-105 hover:shadow-[0_0_30px_rgba(240,237,229,0.2)] transition-all duration-300">
+
+      <h3 className="text-2xl font-bold mb-3">
         AI Interview Assistant
       </h3>
 
-      <p className="mb-4">
-        AI-powered interview preparation platform with intelligent feedback and evaluation.
+      <p className="text-[#d8d4ca] mb-4">
+        AI-powered interview preparation platform with intelligent feedback and evaluation system.
       </p>
 
-      <div className="flex flex-wrap gap-2">
-        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm font-semibold">
-          React
-        </span>
-
-        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm font-semibold">
-          Flask
-        </span>
-
-        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm font-semibold">
-          AI
-        </span>
+      <div className="flex flex-wrap gap-2 mb-5">
+        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm">React</span>
+        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm">Flask</span>
+        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm">AI</span>
       </div>
+
+      <div className="flex gap-3">
+        <a href="#" className="px-4 py-2 bg-[#F0EDE5] text-[#004643] rounded-lg text-sm font-semibold">
+          Live Demo
+        </a>
+        <a href="https://github.com/abuzar0602" className="px-4 py-2 border border-[#F0EDE5] text-[#F0EDE5] rounded-lg text-sm">
+          GitHub
+        </a>
+      </div>
+
     </div>
 
     {/* Project 2 */}
-    <div className="bg-[#0A5C55]/80 backdrop-blur-md p-6 rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-[#F0EDE5] hover:shadow-[0_0_30px_rgba(240,237,229,0.25)]">
-      <h3 className="text-2xl font-semibold mb-3">
+    <div className="bg-[#0A5C55]/70 backdrop-blur-md p-6 rounded-2xl border border-white/10 hover:scale-105 hover:shadow-[0_0_30px_rgba(240,237,229,0.2)] transition-all duration-300">
+
+      <h3 className="text-2xl font-bold mb-3">
         Face Mask Detection
       </h3>
 
-      <p className="mb-4">
-        Real-time face mask detection system using computer vision and machine learning.
+      <p className="text-[#d8d4ca] mb-4">
+        Real-time computer vision system for detecting face masks using ML & OpenCV.
       </p>
 
-      <div className="flex flex-wrap gap-2">
-        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm font-semibold">
-          Python
-        </span>
-
-        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm font-semibold">
-          OpenCV
-        </span>
-
-        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm font-semibold">
-          ML
-        </span>
+      <div className="flex flex-wrap gap-2 mb-5">
+        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm">Python</span>
+        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm">OpenCV</span>
+        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm">ML</span>
       </div>
+
+      <div className="flex gap-3">
+        <a href="#" className="px-4 py-2 bg-[#F0EDE5] text-[#004643] rounded-lg text-sm font-semibold">
+          Live Demo
+        </a>
+        <a href="https://github.com/abuzar0602" className="px-4 py-2 border border-[#F0EDE5] text-[#F0EDE5] rounded-lg text-sm">
+          GitHub
+        </a>
+      </div>
+
     </div>
 
     {/* Project 3 */}
-    <div className="bg-[#0A5C55]/80 backdrop-blur-md p-6 rounded-2xl border border-white/10 transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:border-[#F0EDE5] hover:shadow-[0_0_30px_rgba(240,237,229,0.25)]">
-      <h3 className="text-2xl font-semibold mb-3">
-        Plagiarism Detection
+    <div className="bg-[#0A5C55]/70 backdrop-blur-md p-6 rounded-2xl border border-white/10 hover:scale-105 hover:shadow-[0_0_30px_rgba(240,237,229,0.2)] transition-all duration-300">
+
+      <h3 className="text-2xl font-bold mb-3">
+        Plagiarism Detection System
       </h3>
 
-      <p className="mb-4">
-        NLP-based document comparison system for detecting similarity and plagiarism.
+      <p className="text-[#d8d4ca] mb-4">
+        NLP-based system for detecting text similarity and plagiarism in documents.
       </p>
 
-      <div className="flex flex-wrap gap-2">
-        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm font-semibold">
-          NLP
-        </span>
-
-        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm font-semibold">
-          Python
-        </span>
-
-        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm font-semibold">
-          Text Analysis
-        </span>
+      <div className="flex flex-wrap gap-2 mb-5">
+        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm">NLP</span>
+        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm">Python</span>
+        <span className="bg-[#F0EDE5] text-[#004643] px-3 py-1 rounded-full text-sm">ML</span>
       </div>
+
+      <div className="flex gap-3">
+        <a href="#" className="px-4 py-2 bg-[#F0EDE5] text-[#004643] rounded-lg text-sm font-semibold">
+          Live Demo
+        </a>
+        <a href="https://github.com/abuzar0602" className="px-4 py-2 border border-[#F0EDE5] text-[#F0EDE5] rounded-lg text-sm">
+          GitHub
+        </a>
+      </div>
+
     </div>
 
   </div>
