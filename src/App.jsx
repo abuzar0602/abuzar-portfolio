@@ -67,86 +67,70 @@ function App() {
         </div>
       </nav>
 
-      {/* HERO */}
-      <motion.section
+  {/* HERO */}
+<motion.section
   initial={{ opacity: 0, y: 50 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.8 }}
-  className="min-h-[85vh] flex flex-col justify-center items-center text-center px-6"
+  className="min-h-[90vh] flex flex-col justify-center items-center text-center px-6 bg-gradient-to-b from-[#004643] to-[#002f2d]"
 >
-  <p className="uppercase tracking-[6px] text-sm mb-5">
-    AI • MACHINE LEARNING • CYBERSECURITY
+
+  {/* Tech Tag */}
+  <p className="uppercase tracking-[8px] text-sm mb-6 text-[#d8d4ca]">
+    AI • MACHINE LEARNING • DEEP LEARNING • CYBERSECURITY
   </p>
 
-  <h1 className="text-6xl md:text-8xl font-bold mb-6">
+  {/* Name */}
+  <h1 className="text-6xl md:text-8xl font-extrabold mb-6 text-[#F0EDE5]">
     Abuzar Ali
   </h1>
 
-  <h2 className="text-2xl md:text-3xl text-[#d8d4ca] mb-8">
+  {/* Tagline */}
+  <h2 className="text-2xl md:text-3xl text-[#d8d4ca] mb-8 font-light">
     Building Intelligent Solutions Through Code
   </h2>
 
-  <p className="max-w-3xl text-lg leading-8">
-    Computer Science Engineering student at LNCT University
-    focused on Artificial Intelligence, Machine Learning,
-    Deep Learning and modern Software Development.
+  {/* Description */}
+  <p className="max-w-3xl text-lg leading-8 text-[#cfcac2]">
+    Computer Science Engineering student at LNCT University focused on
+    Artificial Intelligence, Machine Learning, Deep Learning, and modern
+    software development. Passionate about building real-world AI systems.
   </p>
 
-  <div className="flex gap-5 mt-10 flex-wrap justify-center">
+  {/* Buttons */}
+  <div className="flex gap-5 mt-12 flex-wrap justify-center">
 
     <a
-  href="https://github.com/abuzar0602"
-  target="_blank"
-  rel="noreferrer"
-  className="bg-[#F0EDE5] text-[#004643] px-8 py-4 rounded-xl font-bold hover:scale-110 transition-all duration-300 flex items-center gap-2"
->
-  <FaGithub />
-  GitHub
-</a>
+      href="https://github.com/abuzar0602"
+      target="_blank"
+      rel="noreferrer"
+      className="bg-[#F0EDE5] text-[#004643] px-8 py-4 rounded-xl font-bold hover:scale-110 hover:shadow-xl transition-all duration-300 flex items-center gap-2"
+    >
+      <FaGithub />
+      GitHub
+    </a>
 
     <a
-  href="https://www.linkedin.com/in/abuzar-ali0602"
-  target="_blank"
-  rel="noreferrer"
-  className="border border-[#F0EDE5] px-8 py-4 rounded-xl hover:bg-[#F0EDE5] hover:text-[#004643] transition-all duration-300 flex items-center gap-2"
->
-  <FaLinkedin />
-  LinkedIn
-</a>
+      href="https://www.linkedin.com/in/abuzar-ali0602"
+      target="_blank"
+      rel="noreferrer"
+      className="border border-[#F0EDE5] text-[#F0EDE5] px-8 py-4 rounded-xl hover:bg-[#F0EDE5] hover:text-[#004643] hover:scale-105 transition-all duration-300 flex items-center gap-2"
+    >
+      <FaLinkedin />
+      LinkedIn
+    </a>
+
     <a
-  href="/resume.pdf"
-  download
-  className="bg-white text-[#004643] px-8 py-4 rounded-xl font-bold hover:scale-110 transition-all duration-300 flex items-center gap-2"
->
-  <FaFileDownload />
-  Download Resume
-</a>
+      href="/resume.pdf"
+      download
+      className="bg-[#0a7a6f] text-white px-8 py-4 rounded-xl font-bold hover:scale-110 hover:shadow-xl transition-all duration-300 flex items-center gap-2"
+    >
+      <FaFileDownload />
+      Resume
+    </a>
 
   </div>
 </motion.section>
-
-      {/* ABOUT */}
-      <motion.section
-  id="about"
-  className="px-8 md:px-20 py-20"
-  initial={{ opacity: 0, y: 50 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true }}
-  transition={{ duration: 0.8 }}
->
-
-        <h2 className="text-4xl font-bold mb-8">About Me</h2>
-
-        <div className="bg-[#0A5C55] p-8 rounded-2xl">
-          <p className="text-lg leading-8">
-            I am a Computer Science Engineering student at LNCT University,
-            expected to graduate in 2027. I am passionate about building
-            intelligent systems using Artificial Intelligence, Machine Learning,
-            Deep Learning, and modern software development technologies.
-          </p>
-        </div>
-      </motion.section>
-
       {/* SKILLS */}
       <motion.section
   id="skills"
