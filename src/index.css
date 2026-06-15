@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  body{
+  font-family:'Space Grotesk',sans-serif;
+}
+}
